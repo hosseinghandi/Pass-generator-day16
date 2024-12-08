@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <title>this is a website that helps the user to produce a random password</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background">
+        <div class="content">
+            <h1>Generate a <span> random password</span></h1>
+            <p>Never use an insecure password again.</p>
+            <div>
+                <input id="char-length-el" type="number"  max="50" min="12"  placeholder="Password length">
+                <button id="generate-el" >Generate passwords</button>
+            </div>
+            <p id="message-el-len"></p>
+            <div id="generated-pass">
+                <input id="pass-with-el" type="text" placeholder="password with characters ">
+                <button id="copy-el" type="copy">Copy</button>
+            </div>
+            <p id ="message-el"></p>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
